@@ -1,0 +1,4 @@
+interface:
+  display_name: "New Model Audit"
+  short_description: "Audit your brand files and briefs with a new model"
+  default_prompt: "Use $new-model-audit to audit my setup for contradictions, outdated instructions and missing inputs, then retest one finished job."
