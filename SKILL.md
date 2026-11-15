@@ -24,7 +24,7 @@ These hold for the whole run.
 
 ## Step 0. Find the setup
 
-Work out where the setup lives. If the user pointed at a folder or attached files, use those. If not, look for the obvious places (a project folder, a skills or prompts directory, a brand or client folder) and confirm with the user before reading. Ask at most one question here.
+Work out where the setup lives. If the user pointed at a folder or attached files, use those. If not, look for the obvious places (a project folder, a skills or prompts directory, a brand or client folder) and confirm with the user before reading.
 
 A full setup usually has:
 
@@ -41,17 +41,19 @@ Missing pieces are not a reason to stop. They are findings for step 4.
 
 Ask the user for one finished job they were happy with (a brief, a script, a set of hooks) together with the input it was made from. Step 8 needs it. If they have none, skip step 8 and say so in the report.
 
+Put the location and the finished job in one message, so the user answers once and you can get on with reading.
+
 ## Step 1. Inventory
 
 List every file you read with one line on what it is for. Mark anything you could not open or did not finish.
 
-Show this to the user first and let them correct it. If you have a file's purpose wrong, every later finding built on it is wrong too.
+Send the inventory as its own message before the rest of the audit and ask the user to correct it. If you have a file's purpose wrong, every later finding built on it is wrong too. If the user is not around to answer, carry on and repeat the open question at the top of the report.
 
 ## Step 2. Contradictions
 
 Find every place where two files, or two parts of one file, disagree.
 
-For each one: quote both lines with their file names, say which one looks current and why, and say what would go wrong in an ad or brief if someone used the wrong one.
+For each one: quote both lines with their file names, say which one looks current and why, and say what would go wrong in an ad or brief if someone used the wrong one. If nothing in the files shows which side is current, say that and add it to the "ask the team" list instead of picking one.
 
 Where ecom teams usually have them:
 
@@ -110,6 +112,8 @@ Walk through it and report:
 - which instructions look like they were written to stop an older model making a mistake, and that you would follow without being told
 
 Be careful with that last group. Your own belief that you no longer need a rule is a guess until it is tested. So these go on a list called "test removing", never "remove". The test is simple: take one rule out, run the same job, compare.
+
+Some of these rules are also brand decisions. "Never use emojis", written twice in capitals, is a real choice by the team wrapped in an old habit of shouting at the model. Keep the decision and put only the shouting or the repetition on the list.
 
 ## Step 7. Proposed changes
 
